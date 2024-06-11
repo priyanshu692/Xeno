@@ -1,0 +1,116 @@
+/* Global Styles */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Home Page Styles */
+.container .login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container .login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container .login-form .form-group {
+  margin-bottom: 15px;
+}
+
+.container .login-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.container .login-form input[type="text"],
+.container .login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container .login-form button[type="submit"] {
+  background-color: #61dafb;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* styles.css */
+
+/* Add this to your existing CSS */
+
+/* Form styles */
+.data-ingestion-form {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.data-ingestion-form h2 {
+  margin-top: 0;
+}
+
+.data-ingestion-form div {
+  margin-bottom: 15px;
+}
+
+.data-ingestion-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.data-ingestion-form input[type="text"],
+.data-ingestion-form input[type="email"],
+.data-ingestion-form input[type="number"],
+.data-ingestion-form input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.data-ingestion-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.data-ingestion-form button:hover {
+  background-color: #45a049;
+}
